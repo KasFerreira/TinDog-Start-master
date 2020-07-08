@@ -21,6 +21,13 @@ h1{
     line-height: 1.5;
 }
 
+h2 {
+    font-size:"Montserrat-bold";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
 
 /* Nvaigation Bar */
 
@@ -48,7 +55,7 @@ font-weight: bold;
 /* Downlaod Buttons */
 
 .download-button{
-    margin:5% 5% 5% 5%;
+    margin:5% 2% 5% 0;
 }
 
 
@@ -57,13 +64,16 @@ font-weight: bold;
 .title-image{
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
+    top:-20%;
 }
 
 /* Features */
 
-.container{
-   margin: 10% 10% 10% 10%;
-   text-align: center;
+#features{
+   padding:11% 3%; 
+   background-color: #fff;
+   position: relative;
 }
 
 .row-features h3{
@@ -75,13 +85,105 @@ font-weight: bold;
     color:#8f8f8f;
     
 }
+.feature-box{
+    text-align: center;
+}
+
 
 
 /* Fas img size */
 
-.fas{
-    font-size:4rem;
+.fas-img {
+    margin-bottom: 1rem;
     color: #ef8172;
-    margin: 5% 45% 5%;auto;
     
+    
+}
+.fas-img:hover{
+    color:#ff4c68
+}
+
+
+/* Testimonial Section */
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin:20px;
+}
+
+.carousel-item{
+        padding: 7%  15%;
+
+
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+
+    width:15%;
+    margin:20px 20px 50px;
+}
+
+
+/* Pricing */
+#pricing{
+padding:100px;
+text-align: center;
+
+}
+
+.pricing-column {
+    padding:3% 2%;
+}
+
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+
+    .title-image{
+        position: static;
+        transform: rotate(0);
+
+    }
+}
+
+/* Call to action */
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 15%;
+}
+#cta h3{
+    font-size:3.5rem;
+    color: #fff;
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/* Footer */
+
+#footer{
+    padding: 4%;
+    text-align: center;
+    color: grey;
+}
+.fab-icons{
+    padding: 1rem;
+    color: rgba(0, 0, 0, 0.747);
 }
